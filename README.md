@@ -8,7 +8,7 @@ Fork and clone this lab inside of your homework folder. Make sure to commit and 
 
 ## Intro
 
-The Intro to Express lesson, with all of that new information, can be a lot to understand. 
+Everything we just learned is a lot to take in. 
 
 It's natural, in fact, **expected**, to feel "uncomfortable" and confused by Node.js & Express at this point.
 
