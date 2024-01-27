@@ -155,7 +155,7 @@ Add a welcome message within the body:
 </body>
 ```
 
-This next part is going to be all you!  Use the readme from the intro to express lesson if you have to.  Your job is to update the app.get route to render the home.jsx template.  Recall that we can use the render method to help us out here.
+This next part is going to be all you!  Use the readme from the intro to express lesson if you have to.  Your job is to update the app.get route to render the home.ejs template.  Recall that we can use the render method to help us out here.
 
 ```
 app.get('/', (req, res) => {
