@@ -107,7 +107,7 @@ app.listen(3000, () => {
 Now let's run the app:
 
 ```
-nodemon server 
+nodemon  
 ```
 
 If you browse to localhost:3000 in your window, you should see "Welcome to Jasmis!" dipslayed in the browser window. 
