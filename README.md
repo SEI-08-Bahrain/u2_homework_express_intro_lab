@@ -100,7 +100,7 @@ Okay, lastly let's tell the app to listen on port 3000 for incoming HTTP request
 
 ```
 app.listen(3000, () => {
-  console.log('Listening on port 30001');
+  console.log('Listening on port 3000');
 });
 ```
 
