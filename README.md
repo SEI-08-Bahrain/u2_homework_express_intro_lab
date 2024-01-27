@@ -189,7 +189,7 @@ Awesome!  If everything is set up correctly you should still see the "Welcome to
 
 Now for the fun bit.  
 
-We're going to create a data folder and within that we're going to create a jasmi-menu.js file/module that exports the data for our app.
+We're going to create a data folder and within that we're going to create a jasmi-menu.js module that exports the data for our app.
 
 Run the following two commands in your integrated terminal:
 
@@ -198,7 +198,7 @@ mkdir data
 touch data/jasmi-menu.js
 ```
 
-Open up the jasmi-menu file/module and add the following:
+Open up the jasmi-menu module and add the following:
 
 ```
 const menuItems = [
@@ -218,11 +218,11 @@ const getAll = () => {
   return menuItems;
 }
 
-//Include the function in the modules exports object
+//Include the function in the module's exports object
 module.exports = { getAll }
 ```
 
-Alright, now that that's done, let's import the data within our server.js so that we can access it in our routes:
+Alright, with that done, let's import the data within our server.js so that we can access it in our routes:
 
 ```
 const path = require('path');
