@@ -4,7 +4,7 @@
 ---
 ## Instructions
 
-Fork and clone this lab inside of your homework folder. Once finished, be sure to create a pull request.
+Fork and clone this lab inside of your homework folder. Make sure to commit and push as you do your work and once finished be sure to create a pull request.
 
 ## Intro
 
