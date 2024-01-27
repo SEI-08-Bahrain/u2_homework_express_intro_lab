@@ -71,7 +71,7 @@ Let's define a get request that returns a message to the user when they browse t
 
 ```
 app.get('/', (req, res) => {
-  res.send('Welcome to Jasmis!');
+  res.send('<h1>Welcome to Jasmis!<h1>');
 });
 ```
 What's written above is arrow syntax.  It's the same as writing an anonymous callback function with the function keyword, as in the lesson earlier, so don't let it confuse you.
