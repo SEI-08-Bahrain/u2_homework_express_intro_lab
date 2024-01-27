@@ -172,7 +172,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 ```
 
-Because we are using the path module, we need to import it at the top of our server.js file/module:
+Because we are using the path module, we need to import it at the top of our server.js module:
 
 ```
 const express = require('express');
