@@ -1,0 +1,12 @@
+<body>
+  <h1>Menu</h1>
+  <ul>
+    <% menu.forEach( item => { %>
+      <li>
+        <%= item.name %>
+          - 
+        <%= item.price %>
+      </li>
+    <% }); %>
+  </ul>
+</body>
