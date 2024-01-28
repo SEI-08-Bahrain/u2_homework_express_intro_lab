@@ -1,0 +1,15 @@
+<body>
+  <h1>Jasmis Menu</h1>
+  <ul>
+    <% menuItems.forEach( e=> { %>
+      <li>
+        <h1>
+          <%= e.name %>
+        </h1>
+        <p>
+          <%= e.price %> BD
+        </p>
+      </li>
+      <% }); %>
+  </ul>
+</body>
