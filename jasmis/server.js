@@ -11,7 +11,10 @@ app.get('/', (req, res) => {
   res.render('home')
 })
 
-app.get('/menuItems', (req, res) => {})
+app.get('/menuItems', (req, res) => {
+  const menuItems = database.getAll()
+  res.render('menuItems/index', { menuItems })
+})
 
 app.listen(3000, () => {
   console.log('Listening on port 3000')

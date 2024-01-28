@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Items Page</title>
+</head>
+<body>
+  <h1>Menu Items</h1>
+  <ul>
+    <% menuItems.forEach( menuItem => { %>
+      <li>
+        <%= menuItem.name %>
+          - 
+        <%= menuItem.price %>
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>
