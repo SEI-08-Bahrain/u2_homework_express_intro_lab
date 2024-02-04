@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    li {
+      width: 20%;
+    }
+
+    li span {
+      float: right;
+      text-align: right;
+    }
+  </style>
+  <title>Menu Items</title>
+</head>
+<body>
+  <h1>Items</h1>
+  <ul>
+    <% menus.forEach( menu => { %>
+      <li>
+        <%=menu.name%> : <span><%=menu.price%></span>
+      </li>
+    <%});%>
+  </ul>
+</body>
+</html>

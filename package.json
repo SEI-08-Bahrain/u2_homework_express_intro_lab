@@ -1,0 +1,18 @@
+{
+  "name": "u2_homework_express_intro_lab",
+  "version": "1.0.0",
+  "description": "<img src=\"https://i.imgur.com/IoI44Cy.jpg\">",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
